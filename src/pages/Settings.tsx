@@ -50,7 +50,7 @@ const Settings: React.FC = () => {
 
       {/* Cambiar tema */}
       <div className="flex items-center justify-between mb-6">
-        <span className="font-medium">{t("dark_mode")}</span>
+        <span className="font-medium">{t("Modo Oscuro")}</span>
         <button
           onClick={toggleDarkMode}
           className={`px-4 py-2 rounded transition ${
@@ -65,7 +65,7 @@ const Settings: React.FC = () => {
 
       {/* Cambiar idioma */}
       <div className="flex items-center justify-between mb-6">
-        <span className="font-medium">{t("language")}</span>
+        <span className="font-medium">{t("Lenguaje")}</span>
         <select
           value={language}
           onChange={handleChangeLanguage}
